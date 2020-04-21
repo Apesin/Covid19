@@ -1,4 +1,4 @@
-package com.example.corona_virus
+package tech.apesin.corona_virus
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
