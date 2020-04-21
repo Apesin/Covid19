@@ -132,8 +132,9 @@ class _CreditScreenState extends State<CreditScreen> {
 
                   GestureDetector(
                     onTap: visitSite,
-                    child: Text(
-                      "Visit Apesin Tech", style: TextStyle(fontWeight: FontWeight.bold),
+                    child: Container(
+                      padding: EdgeInsets.all(5.0),
+                      child: Text("Visit Apesin Tech"),
                     ),
                   ),
                 ],
